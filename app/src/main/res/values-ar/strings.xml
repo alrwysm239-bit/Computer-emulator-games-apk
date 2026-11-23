@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Retro PC Emulator</string>
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_games">الألعاب</string>
+    <string name="nav_store">المتجر</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="continue_playing">متابعة اللعب</string>
+    <string name="play_action">تشغيل</string>
+    <string name="my_library">مكتبتي</string>
+    <string name="import_game">استيراد لعبة</string>
+    <string name="add_file_hint">إضافة .EXE / .ZIP / .ISO / .RAR / .7Z</string>
+    <string name="auto_detect_hint">اكتشاف تلقائي وفك ضغط تلقائي</string>
+    <string name="start_import">بدء الاستيراد</string>
+</resources>

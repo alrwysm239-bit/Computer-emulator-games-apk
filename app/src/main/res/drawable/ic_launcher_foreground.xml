@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Retro CRT Monitor Outer Frame inside 66dp safe zone (24..84) -->
+    <path
+        android:pathData="M28,28 C25.8,28 24,29.8 24,32 L24,68 C24,70.2 25.8,72 28,72 L46,72 L46,78 L36,78 L36,83 L72,83 L72,78 L62,78 L62,72 L80,72 C82.2,72 84,70.2 84,68 L84,32 C84,29.8 82.2,28 80,28 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="28"
+                android:endX="84"
+                android:endY="83"
+                android:type="linear">
+                <item android:color="#8A5CFF" android:offset="0.0" />
+                <item android:color="#00D6FF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Inner Dark CRT Screen -->
+    <path
+        android:fillColor="#0B091D"
+        android:pathData="M30,33 L78,33 L78,64 L30,64 Z" />
+    <!-- Neon Pink Play Triangle inside CRT Screen -->
+    <path
+        android:fillColor="#FF46AA"
+        android:pathData="M47,41 L64,48.5 L47,56 Z" />
+    <!-- Cyan CRT Scanline Accent -->
+    <path
+        android:fillColor="#00D6FF"
+        android:pathData="M34,60 L74,60 L74,62 L34,62 Z" />
+    <!-- Power LED Dot -->
+    <path
+        android:fillColor="#00D6FF"
+        android:pathData="M75,67 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+</vector>

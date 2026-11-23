@@ -1,0 +1,6 @@
+{
+  "name": "Retro PC Emulator",
+  "description": "Neon glassmorphic Retro PC Emulator for Windows 95/98/XP and DOS era games (EXE, ZIP, ISO, RAR, 7Z) with Wine/Box86/Box64, DOSBox-X, ScummVM engines, customizable touch/gamepad controls, CRT/Pixel shaders, save states, and cloud backup.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
